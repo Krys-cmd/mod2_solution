@@ -5,7 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Courseara Assignment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+   <style>
+       b{
+           box-sizing: boder-box;
+       }
+       h1{
+           margin-bottom: 15px;
+       }
+       p{
+           border: 1px solid black;
+           background-color: #2feaea;
+           width: 90%;
+           height: 150px;
+           margin-left: auto;
+           margin-right: auto;
+           font-family: 'Times New Roman', Times, serif;
+           color: azure;
+       }
+
+       .section {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+       .row{
+           width: 100%;
+       }
+      
+      /* Media query for responsiveness */
+@media screen and (max-width: 991px) {
+  .section {
+    width: 100%;
+  }
+       }
+
+   </style>
     </head>
 <body>
     <div class="container">
